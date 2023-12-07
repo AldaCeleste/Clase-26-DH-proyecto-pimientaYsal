@@ -12,7 +12,7 @@ const menues=[
         id:2,
         nombre: "Risotto de berenjena",
         descripcion: "Risotto de berenjena y queso de cabra",
-        detalle:" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus possimus, impedit quis modi culpa voluptas ea, assumenda vel at beatae ratione repudiandae. Minus molestias sapiente illo aperiam recusandae vero dignissimos",
+        // detalle:" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus possimus, impedit quis modi culpa voluptas ea, assumenda vel at beatae ratione repudiandae. Minus molestias sapiente illo aperiam recusandae vero dignissimos",
         precio: 47,
         imagen:"/images/Risotto-berenjena-queso-cabra.jpg"
     },

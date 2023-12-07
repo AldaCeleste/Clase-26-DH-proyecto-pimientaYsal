@@ -5,8 +5,8 @@ const menues = require('../dataBase/menu');
 
 const detalleMenuController = {
     index: (req, res) => {
-        let {idMenu}= req.params;
-        res.render(path.resolve(__dirname, '../views/detalleMenu.ejs'), { menues , idMenu });
+        let { idMenu } = req.params;
+        res.render(path.resolve(__dirname,'../views/detalleMenu.ejs'), { menues, idMenu });
     },
 
 }

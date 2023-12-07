@@ -11,7 +11,7 @@ app.use(express.static(publicPath));
 
 app.set('view engine', 'ejs');
 
-app.listen(3000, () => {
+app.listen(8000, () => {
     console.log('Servidor funcionando');
 });
 
