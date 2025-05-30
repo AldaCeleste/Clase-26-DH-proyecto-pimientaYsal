@@ -5,15 +5,11 @@ const about = require('../dataBase/about');
 
 
 const indexController = {
-    index:((req, res)=> {
-        res.render(path.resolve(__dirname, '../views/index.ejs'), { menues });
-
-        } ),
-}
-
-
-
-
+    index: ((req, res) => {
+        res.render('index.ejs', { menues })
+    }
+    )
+};
 
 
 module.exports = indexController;
